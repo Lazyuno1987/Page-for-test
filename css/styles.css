@@ -1,0 +1,108 @@
+body {
+  background-color: grey;
+}
+
+.container {
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header-link {
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+  color: blue;
+  font-weight: 700;
+  text-decoration: none;
+  margin-left: 5px;
+}
+
+.header-div {
+  display: flex;
+  align-items: center;
+}
+#header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#header-img {
+  width: 45px;
+  height: 45px;
+  fill: blue;
+}
+
+.nav-link {
+  border: 2px solid blue;
+  border-radius: 20%;
+  background-color: blue;
+  padding: 15px;
+  min-width: 100px;
+  color: aliceblue;
+  margin-right: 9px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  background-color: blueviolet;
+}
+.header-list {
+  display: flex;
+  list-style: none;
+}
+/*----------- main ------------*/
+
+.main-title {
+  font-weight: 700;
+  text-align: center;
+}
+.photos {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.main-img {
+  width: 250px;
+}
+/* ---------------about----------- */
+
+.about {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.about-title {
+  text-align: center;
+  font-weight: 700;
+}
+
+.about-div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.about-img {
+  margin-bottom: 20px;
+}
+
+.reviews {
+  display: flex;
+  justify-content: center;
+}
+#email {
+  padding: 20px;
+  font-size: 14px;
+  line-height: calc(18 / 14);
+}
+
+#submit {
+  width: 100px;
+  height: 50px;
+  padding: 10px;
+  background-color: blue;
+  border-radius: 20%;
+}
